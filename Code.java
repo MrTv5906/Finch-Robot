@@ -3,6 +3,7 @@ int right = bird.getLine("R");
 while(true){
  bird.setBeak(0,100,0);
   bird.setMotors(2,2);
+  System.out.println(right + " " + left);
   if(right <= 90 && left<=90){
     bird.setBeak(0,0,100);
     bird.setMotors(0,0);
