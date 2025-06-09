@@ -5,7 +5,7 @@
 | Completed | Task         | Description |
 |:---------:| :-----------:|:------------|
 |    ✅     | Familiarize  | Learn how to: <ul><li>Connect to the robot</li><li>Interpret how the built in sensors detect light and color</li><li>Setup local developing environment to code in Java</li></ul>|
-|    ✅     | 3D Design    |             |
+|    ✅     | 3D Design    | <ul><li>Bowling ball on marker thin pole</li>|
 |    ❌     | Develop Code |             |
 
 ---
@@ -25,7 +25,11 @@
 <img src="design_cycle.png" alt="design cycle" width="300" height="300">
 
 ###### Include commentary on your experience with the design cycle during this project
-
+- Our first though was to make the robot folow a set path, but we had not had a design to follow up with it
+- We attempted to make a design of something that would hold a marker until we realized the robot could hold it by itself
+- I decided a good idea would be something to hold a simple materials, which we decided on being pencils
+- A design I thought would be interesting to try would be a bowling ball since it has 3 spots to hold 3 pencils
+- (How successful was said design?)
 ---
 
 ### Code to Highlight
@@ -41,10 +45,3 @@ f.stop();
 ```
 
 ---
-
-### Choose At Least Three of the Following to Include:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-- What makes your project stand out?
