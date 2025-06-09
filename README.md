@@ -34,14 +34,22 @@
 
 ### Code to Highlight
 ```
-Finch f = new Finch();	
-f.setMotors(10, 10);
-f.pause(3);
-f.stop();
-int t = (int)(Math.random() * 360) + 1;
-f.setTurn("R", t, 50);
-System.out.println(t);
-f.stop();
+while(true){
+ bird.setBeak(0,100,0);
+  bird.setMotors(2,2);
+  System.out.println(right + " " + left);
+  if(right <= 90 && left<=90){
+    bird.setBeak(0,0,100);
+    bird.setMotors(0,0);
+  }
+  else if(right <= 90){
+   bird.setBeak(100,0,0);
+   bird.setMotors(4,2);
+ }
+  else{
+    bird.setBeak(0,100,100);
+    bird.setMotors(2,4);
+  }
 ```
 
 ---
