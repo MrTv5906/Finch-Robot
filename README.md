@@ -13,7 +13,10 @@
 <details>
 <summary><strong>Inspiration for the Project</strong></summary>
 
-I wanted to create an automated pencil transfer machine to patrol classrooms.
+- I wanted to create an automated pencil transfer machine to patrol classrooms.
+- My motivation for this project was the idea of transporting school materials and how a small bowling ball could easily hold multiple pencils in a clever design
+- This could be useful for during tests so students dont have to get up and grab a pencil from the front of the room and instead can have a fresh pencil delivered to them.
+- From this project, I was able to understand a general idea on how sensors function and respond.
 </details>
 
 ---
